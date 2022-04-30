@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  max-width: 1120px;
+  margin: 0 auto;
+  background-color: white;
+
+ 
+}
+
+.header_icon {
+  height: 40px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 30px;
+  padding: 10px;
+  max-width: fit-content;
+  border: 1px solid #efefef;
+  border-radius: 50px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+.header_center > input {
+  outline: none;
+  border: none;
+  width: 250px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.header_right > p {
+  margin-right: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+.header_right > p:hover {
+  background-color: #efefef;
+  border-radius: 20px;
+}
+.header_center > .searchicon {
+  background-color: #ff5a5f;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+.header_center > input::placeholder {
+  font-weight: 500;
+  font-size: 15px;
+}
+.header_right>.user_info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header_right>.MuiSvgIcon-root{
+     padding: 0 10px;
+} 
+.user_info>.MuiSvgIcon-root{
+    margin-right: 10px;
+}
+.user_info{
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    height: 30px;
+}
