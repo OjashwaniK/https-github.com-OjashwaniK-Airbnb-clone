@@ -1,0 +1,23 @@
+.searchpage{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+.searchpage_info>.MuiButton-root{
+    color: black;
+    text-transform: inherit;
+    margin-right: 5px;
+    border-radius: 30px;
+   
+}
+.searchpage_info>.MuiButton-root:hover{
+    color: gray;
+}
+.searchpage_info>h1{
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.searchpage_info>p{
+    font-size: 14px;
+}

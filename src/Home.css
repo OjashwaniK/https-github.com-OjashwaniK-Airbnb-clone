@@ -1,0 +1,11 @@
+.home{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.card_section{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
